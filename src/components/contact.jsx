@@ -25,7 +25,7 @@ function Contact() {
 
           {/* Contact Form */}
           <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-            <form action="https://formspree.io/f/{your-formspree-id}" method="POST">
+            <form action="https://formspree.io/f/xnnqvgwj" method="POST">
               <div className="mb-4">
                 <label htmlFor="name" className="block text-sm font-medium text-gray-900 dark:text-gray-400 mb-1">Name</label>
                 <input type="text" id="name" name="name" required className="w-full p-2 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600" />
