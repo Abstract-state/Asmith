@@ -20,12 +20,12 @@ function Header() {
 
         {/* Navigation Links for Desktop */}
         <nav className="hidden md:flex space-x-8 text-lg font-medium">
-          <a href="#about" className="hover:text-black dark:hover:text-yellow-400 transition">About</a>
-          <a href="#skills" className="hover:text-black dark:hover:text-yellow-400 transition">Skills</a>
-          <a href="#projects" className="hover:text-black dark:hover:text-yellow-400 transition">Projects</a>
-          <a href="#work" className="hover:text-black dark:hover:text-yellow-400 transition">Work</a>
-          <a href="#testimonials" className="hover:text-black dark:hover:text-yellow-400 transition">Testimonials</a>
-          <a href="#contact" className="hover:text-black dark:hover:text-yellow-400 transition">Contact</a>
+          <a href="#about" className="text-black dark:text-white hover:text-black dark:hover:text-yellow-400 transition transform hover:scale-105 duration-200">About</a>
+          <a href="#skills" className="text-black dark:text-white hover:text-black dark:hover:text-yellow-400 transition transform hover:scale-105 duration-200">Skills</a>
+          <a href="#projects" className="text-black dark:text-white hover:text-black dark:hover:text-yellow-400 transition transform hover:scale-105 duration-200">Projects</a>
+          <a href="#work" className="text-black dark:text-white hover:text-black dark:hover:text-yellow-400 transition transform hover:scale-105 duration-200">Work</a>
+          <a href="#testimonials" className="text-black dark:text-white hover:text-black dark:hover:text-yellow-400 transition transform hover:scale-105 duration-200">Testimonials</a>
+          <a href="#contact" className="text-black dark:text-white hover:text-black dark:hover:text-yellow-400 transition transform hover:scale-105 duration-200">Contact</a>
         </nav>
 
         {/* Dark/Light Toggle and Resume Button */}
@@ -35,9 +35,8 @@ function Header() {
           
           {/* Resume Download Button */}
           <a
-            href="https://drive.google.com/file/d/1iWf_SZVimlEA0Gn84N7oTFpEX8vOh7PU/view"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/Asmith-Resume.pdf"  // Updated path to point to public folder
+            download="Asmith_Resume.pdf"  // This triggers direct download with a specific filename
             className="hidden md:inline-block px-4 py-2 bg-yellow-500 text-white font-medium rounded-lg shadow hover:bg-yellow-600 transition"
           >
             Download Resume

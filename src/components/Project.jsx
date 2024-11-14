@@ -14,7 +14,7 @@ function Projects() {
               Developed a real-time object detection and tracking system using YOLOv5 for surveillance applications. This project utilized computer vision techniques to analyze video frames and track objects effectively.
             </p>
             <div className="mt-4">
-              <a href="https://github.com/Abstract-state/Vision-Insight" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-yellow-400 hover:underline">View on GitHub</a>
+              <a href="https://github.com/Abstract-state/VisionInsight" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-yellow-400 hover:underline">View on GitHub</a>
             </div>
           </div>
 
@@ -47,7 +47,7 @@ function Projects() {
               An AI-Guided Plant Restoration System that detects and treats plant diseases using a unique dataset and a ResNet model. The system was integrated with a Flask backend to provide precise plant health solutions.
             </p>
             <div className="mt-4">
-              <a href="https://github.com/Abstract-state/Green-Guard" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-yellow-400 hover:underline">View on GitHub</a>
+              <a href="https://github.com/Abstract-state/GreenLeaf-AI" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-yellow-400 hover:underline">View on GitHub</a>
             </div>
           </div>
 

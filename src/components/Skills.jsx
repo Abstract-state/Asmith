@@ -29,7 +29,7 @@ function Skills() {
             <img
               src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"
               alt="Java"
-              className="w-40 h-20"
+              className="w-40 h-15"
             />
             <span className="mt-2 text-gray-900 dark:text-white">Java</span>
           </div>
@@ -49,7 +49,7 @@ function Skills() {
             <img
               src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"
               alt="Spring Boot"
-              className="w-40 h-20"
+              className="w-40 h-16"
             />
             <span className="mt-2 text-gray-900 dark:text-white">Spring Boot</span>
           </div>

@@ -9,7 +9,7 @@ function Hero() {
         {/* Introduction Text on the Left */}
         <div className="md:col-span-3 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
-            Hi, I’m Asmith <span role="img" aria-label="waving hand">👋</span>
+            Hi, I’m Asmith <span role="img" aria-label="waving hand" className="waving-hand">👋</span>
           </h1>
           <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-4">
             I’m a Computer Science Engineering student with a focus on software development, machine learning, and data science. I love working on innovative projects and contributing to technological advancements.
